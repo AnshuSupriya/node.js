@@ -1,0 +1,39 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "second-app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon second_app.js",
+        "start-server": "node second_app.js"
+    },
+    "author": "anshu supriya",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.21"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "connect-flash": "^0.1.1",
+        "connect-mongodb-session": "^3.1.1",
+        "csurf": "^1.11.0",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "express-handlebars": "^7.0.4",
+        "express-handler": "^0.2.0",
+        "express-session": "^1.17.3",
+        "express-validator": "^6.15.0",
+        "mongodb": "^5.1.0",
+        "mongoose": "^7.0.3",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.2.0",
+        "nodemailer": "^6.9.1",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "pdfkit": "^0.13.0",
+        "pug": "^3.0.2",
+        "sequelize": "^6.30.0",
+        "stripe": "^12.0.0"
+    }
+}
